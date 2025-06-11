@@ -4,37 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ID vs. Class Example</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
     <h1>Understanding ID and Class</h1>
 
-    <div id="unique-element">
-        <h2>This is an ID example</h2>
-        <p>The `id` attribute should be unique across the entire HTML document. It's great for targeting a *specific, single* element.</p>
-        <button onclick="changeIdContent()">Change ID Content</button>
-    </div>
-
-    <div class="common-elements">
-        <h2>This is a Class example</h2>
-        <p>The `class` attribute can be used on multiple elements. It's perfect for applying the same styles or behaviors to a *group* of elements.</p>
-        <button onclick="changeClassContent()">Change Class Content</button>
-    </div>
-
-    <div class="common-elements">
-        <h2>Another Class example</h2>
-        <p>See? This element also has the "common-elements" class, and it shares the same styles.</p>
-        <button onclick="changeClassContent()">Change Class Content</button>
-    </div>
-
-    <p>Let's add one more element with a class, and an ID as well:</p>
-
-    <p id="special-paragraph" class="common-elements">
-        This paragraph has both an ID ("special-paragraph") and a Class ("common-elements"). IDs have higher specificity in CSS.
+    <p id="paragraph-one">
+        This is an ID example. The `id` attribute should be unique across the entire HTML document. It's great for targeting a *specific, single* element.
     </p>
 
-    <script src="script.js"></script>
+    <script src="index.js"></script>
 
 </body>
 </html>
